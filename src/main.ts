@@ -17,6 +17,7 @@ import Team from "./pages/Team";
             el("a.logo",
                 el("img", { src: "/images/0.png", height: "60" }),
                 el("h1", "FoxPunks"),
+                { click: () => scrollTo(0, 0) },
             ),
             el("a", "Mint a Fox", {
                 click: () => scrollTo(0, mint.rect.top),

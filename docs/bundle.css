@@ -171,8 +171,13 @@ html {
 body {
   font-family: Pretendard;
   background-color: #ffeff0;
+  padding-top: 60px;
 }
 body > header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #ffa7ad;
   color: #7117b5;
   display: flex;
