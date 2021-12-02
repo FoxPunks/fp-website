@@ -1,0 +1,55 @@
+@import "base.less";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family     : Pretendard;
+    background-color: #ffeff0;
+
+    >header {
+        background-color: #ffa7ad;
+        color           : #7117b5;
+        display         : flex;
+        align-items     : center;
+        box-shadow      : 0 2px 6px rgba(0, 0, 0, 0.2);
+        font-family     : Chewy;
+
+        >.logo {
+            display    : flex;
+            align-items: center;
+            font-size  : 40px;
+        }
+
+        >a {
+            margin   : 0 16px;
+            font-size: 24px;
+        }
+    }
+
+    >section {
+        padding  : 60px 20px 0;
+        max-width: 800px;
+        margin   : auto;
+
+        >h2 {
+            font-size    : 32px;
+            font-family  : Chewy;
+            color        : #7117b5;
+            margin-bottom: 20px;
+        }
+    }
+
+    >footer {
+        margin-top      : 60px;
+        padding         : 40px 0;
+        background-color: #7117b5;
+        color           : #ffffff;
+        text-align      : center;
+        font-family     : Chewy;
+        font-size       : 24px;
+    }
+}
+
+@import url(./intro.less);

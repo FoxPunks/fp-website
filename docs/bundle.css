@@ -1,0 +1,224 @@
+/*
+https://github.com/Hanul/sky-css-base
+v0.0.1 | 20210109
+Author: Sim Young Jae
+License: MIT
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*,
+*:focus {
+  outline: 0;
+}
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+a,
+button,
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  cursor: pointer;
+}
+button,
+input {
+  border: none;
+}
+[hidden] {
+  display: none !important;
+}
+[contenteditable] {
+  -webkit-tap-highlight-color: transparent;
+}
+.float-wrapper:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Pretendard;
+  background-color: #ffeff0;
+}
+body > header {
+  background-color: #ffa7ad;
+  color: #7117b5;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  font-family: Chewy;
+}
+body > header > .logo {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+body > header > a {
+  margin: 0 16px;
+  font-size: 24px;
+}
+body > section {
+  padding: 60px 20px 0;
+  max-width: 800px;
+  margin: auto;
+}
+body > section > h2 {
+  font-size: 32px;
+  font-family: Chewy;
+  color: #7117b5;
+  margin-bottom: 20px;
+}
+body > footer {
+  margin-top: 60px;
+  padding: 40px 0;
+  background-color: #7117b5;
+  color: #ffffff;
+  text-align: center;
+  font-family: Chewy;
+  font-size: 24px;
+}
+.intro > header {
+  display: flex;
+  align-items: center;
+}
+.intro > header > img {
+  margin-right: 16px;
+  border-radius: 16px;
+}
+.intro > header > p {
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
