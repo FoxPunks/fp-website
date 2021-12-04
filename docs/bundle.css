@@ -190,9 +190,28 @@ body > header > .logo {
   align-items: center;
   font-size: 40px;
 }
+@media only screen and (max-width: 719px) {
+  body > header > .logo {
+    flex-grow: 1;
+  }
+}
 body > header > a {
   margin: 0 16px;
   font-size: 24px;
+}
+@media only screen and (max-width: 719px) {
+  body > header > .pc-menu {
+    display: none;
+  }
+}
+body > header > .mobile-menu {
+  display: none;
+  padding: 10px;
+}
+@media only screen and (max-width: 719px) {
+  body > header > .mobile-menu {
+    display: block;
+  }
 }
 body > section {
   padding: 60px 20px 0;
@@ -214,17 +233,37 @@ body > footer {
   font-family: Chewy;
   font-size: 24px;
 }
+.intro > h2 {
+  text-align: center;
+}
 .intro > header {
   display: flex;
   align-items: center;
+}
+@media only screen and (max-width: 719px) {
+  .intro > header {
+    display: block;
+  }
 }
 .intro > header > img {
   margin-right: 16px;
   border-radius: 16px;
 }
+@media only screen and (max-width: 719px) {
+  .intro > header > img {
+    margin-right: 0;
+    margin: auto;
+    display: block;
+  }
+}
 .intro > header > p {
   font-size: 18px;
   line-height: 1.4em;
+}
+@media only screen and (max-width: 719px) {
+  .intro > header > p {
+    margin-top: 16px;
+  }
 }
 .mint > .foxes {
   display: grid;
