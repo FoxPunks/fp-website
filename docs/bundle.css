@@ -226,4 +226,13 @@ body > footer {
   font-size: 18px;
   line-height: 1.4em;
 }
+.mint > .foxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.mint > .foxes > img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
 

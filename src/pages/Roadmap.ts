@@ -6,9 +6,26 @@ export default class Roadmap extends DomNode {
         super("section.roadmap");
         this.append(
             el("h2", "Roadmap"),
-            el("header",
-                el("img", { src: "/images/0.png", height: "200" }),
-                el("p", "Cool Cats are a collection of programmatically, randomly generated NFTs on the Ethereum blockchain. The 1st generation consists of 10,000 randomly assembled cats from over 300k total options. Cool Cats that have a variety of outfits, faces and colors - all cats are cool, but completed outfit cats are the coolest. Each Cool Cat is comprised of a unique body, hat, face and outfit - the possibilities are endless!")
+            el("section",
+                el("h3", "2021 4Q"),
+                el("ul",
+                    el("li", "FoxPunks 론칭"),
+                    el("li", "팬케익스왑 NFT에서 거래 시작"),
+                ),
+            ),
+            el("section",
+                el("h3", "2022 1Q"),
+                el("ul",
+                    el("li", "코인 적용, 팬케익 스왑 풀 생성"),
+                    el("li", "파트 변경 기능 론칭"),
+                    el("li", "클랜 시스템 론칭"),
+                ),
+            ),
+            el("section",
+                el("h3", "2022 2Q"),
+                el("ul",
+                    el("li", "메타버스 Foxverse 론칭"),
+                ),
             ),
         );
     }

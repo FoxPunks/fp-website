@@ -1,4 +1,5 @@
 import { DomNode, el } from "@hanul/skynode";
+import partMap from "./parts.json";
 
 export default class Gallary extends DomNode {
 
@@ -6,10 +7,31 @@ export default class Gallary extends DomNode {
         super("section.gallary");
         this.append(
             el("h2", "Gallary"),
-            el("header",
-                el("img", { src: "/images/0.png", height: "200" }),
-                el("p", "Cool Cats are a collection of programmatically, randomly generated NFTs on the Ethereum blockchain. The 1st generation consists of 10,000 randomly assembled cats from over 300k total options. Cool Cats that have a variety of outfits, faces and colors - all cats are cool, but completed outfit cats are the coolest. Each Cool Cat is comprised of a unique body, hat, face and outfit - the possibilities are endless!")
-            ),
+            el("input", {
+                placeholder: "# ID",
+                change: (event, input) => {
+                    //TODO:
+                },
+            }),
+            ...Object.entries(partMap).map(([key, data]) => {
+                const select = el("select",
+                    {
+                        placeholder: key,
+                        change: (event, select) => {
+                            //TODO:
+                        },
+                    },
+                    el("option", key, { value: "" }),
+                    key === "Face" ? undefined : el("option", "None", { value: "None" }),
+                    ...data.parts.map((data) => el("option", data.name, { value: data.name })),
+                );
+                return select;
+            }),
+            el("a.reset-button", "필터 초기화", {
+                click: () => {
+                    //TODO:
+                },
+            }),
         );
     }
 }

@@ -6,9 +6,17 @@ export default class Team extends DomNode {
         super("section.team");
         this.append(
             el("h2", "The Team"),
-            el("header",
-                el("img", { src: "/images/0.png", height: "200" }),
-                el("p", "Cool Cats are a collection of programmatically, randomly generated NFTs on the Ethereum blockchain. The 1st generation consists of 10,000 randomly assembled cats from over 300k total options. Cool Cats that have a variety of outfits, faces and colors - all cats are cool, but completed outfit cats are the coolest. Each Cool Cat is comprised of a unique body, hat, face and outfit - the possibilities are endless!")
+            el("section",
+                el("h3", "0xDesertFox"),
+                el("p", "팍스펑크를 기획 및 개발했습니다. 귀여운 것을 사랑하며 귀여움이 세상을 지배할 것이라 생각합니다."),
+            ),
+            el("section",
+                el("h3", "Wavo"),
+                el("p", "팍스펑크를 디자인 했으며 사막여우의 귀여움을 그림에 녹여냈습니다."),
+            ),
+            el("section",
+                el("h3", "Cion"),
+                el("p", "팍스펑크의 순항을 위해 커뮤니티 빌딩을 비롯한 다양한 부분에서 도움을 주고 있습니다."),
             ),
         );
     }

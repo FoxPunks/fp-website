@@ -1,0 +1,627 @@
+[{
+        "name": "base",
+        "parts": [{
+                "name": "Fox",
+                "images": [{
+                    "path": "parts/base/Fox.png",
+                    "order": 100
+                }]
+            },
+            {
+                "name": "Brown fox",
+                "images": [{
+                    "path": "parts/base/Brown fox.png",
+                    "order": 100
+                }]
+            },
+            {
+                "name": "Gray fox",
+                "images": [{
+                    "path": "parts/base/Gray fox.png",
+                    "order": 100
+                }]
+            }
+        ]
+    },
+    {
+        "name": "mouth",
+        "parts": [{
+                "name": "Shame",
+                "images": [{
+                    "path": "parts/mouth/FoxPunks (4).png",
+                    "order": 200
+                }]
+            },
+            {
+                "name": "Open",
+                "images": [{
+                    "path": "parts/mouth/FoxPunks (5).png",
+                    "order": 200
+                }]
+            },
+            {
+                "name": "Confident",
+                "images": [{
+                    "path": "parts/mouth/FoxPunks (6).png",
+                    "order": 200
+                }]
+            },
+            {
+                "name": "Gloomy",
+                "images": [{
+                    "path": "parts/mouth/FoxPunks (7).png",
+                    "order": 200
+                }]
+            },
+            {
+                "name": "Cute",
+                "images": [{
+                    "path": "parts/mouth/FoxPunks (8).png",
+                    "order": 200
+                }]
+            },
+            {
+                "name": "Drooling",
+                "images": [{
+                    "path": "parts/mouth/FoxPunks (9).png",
+                    "order": 200
+                }]
+            },
+            {
+                "name": "Fangs",
+                "images": [{
+                    "path": "parts/mouth/FoxPunks (10).png",
+                    "order": 200
+                }]
+            },
+            {
+                "name": "Cheeks",
+                "images": [{
+                    "path": "parts/mouth/FoxPunks (11).png",
+                    "order": 200
+                }]
+            },
+            {
+                "name": "Boring",
+                "images": [{
+                    "path": "parts/mouth/FoxPunks (12).png",
+                    "order": 200
+                }]
+            },
+            {
+                "name": "surprised",
+                "images": [{
+                    "path": "parts/mouth/FoxPunks (13).png",
+                    "order": 200
+                }]
+            },
+            {
+                "name": "Close",
+                "images": [{
+                    "path": "parts/mouth/FoxPunks (14).png",
+                    "order": 200
+                }]
+            }
+        ]
+    },
+    {
+        "name": "eyes",
+        "parts": [{
+                "name": "dizzy",
+                "images": [{
+                    "path": "parts/eyes/dizzy.png",
+                    "order": 300
+                }]
+            },
+            {
+                "name": "Fierce",
+                "images": [{
+                    "path": "parts/eyes/Fierce.png",
+                    "order": 300
+                }]
+            },
+            {
+                "name": "Glance",
+                "images": [{
+                    "path": "parts/eyes/Glance.png",
+                    "order": 300
+                }]
+            },
+            {
+                "name": "Happy",
+                "images": [{
+                    "path": "parts/eyes/Happy.png",
+                    "order": 300
+                }]
+            },
+            {
+                "name": "Heart",
+                "images": [{
+                    "path": "parts/eyes/Heart.png",
+                    "order": 300
+                }]
+            },
+            {
+                "name": "Laser eyes",
+                "images": [{
+                    "path": "parts/eyes/Laser eyes.png",
+                    "order": 300
+                }],
+                "percent": 0.15
+            },
+            {
+                "name": "Lazy",
+                "images": [{
+                    "path": "parts/eyes/Lazy.png",
+                    "order": 300
+                }]
+            },
+            {
+                "name": "Tierd",
+                "images": [{
+                    "path": "parts/eyes/Tierd.png",
+                    "order": 300
+                }]
+            },
+            {
+                "name": "Tomboy",
+                "images": [{
+                    "path": "parts/eyes/Tomboy.png",
+                    "order": 300
+                }]
+            },
+            {
+                "name": "Twinkle",
+                "images": [{
+                    "path": "parts/eyes/Twinkle.png",
+                    "order": 300
+                }]
+            },
+            {
+                "name": "Wink",
+                "images": [{
+                    "path": "parts/eyes/Wink.png",
+                    "order": 300
+                }]
+            },
+            {
+                "name": "Xx",
+                "images": [{
+                    "path": "parts/eyes/Xx.png",
+                    "order": 300
+                }]
+            }
+        ]
+    },
+    {
+        "name": "clothes",
+        "parts": [{
+            "name": "Beige blazer",
+            "images": [{
+                "path": "parts/clothes/Beige blazer.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Beige heart T-shirt",
+            "images": [{
+                "path": "parts/clothes/Beige heart T-shirt.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Black blazer",
+            "images": [{
+                "path": "parts/clothes/Black blazer.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Black knight",
+            "images": [{
+                "path": "parts/clothes/Black knight.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Black office worker",
+            "images": [{
+                "path": "parts/clothes/Black office worker.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Black tattoo sleeveless shirt ",
+            "images": [{
+                "path": "parts/clothes/Black tattoo sleeveless shirt .png",
+                "order": 400
+            }]
+        }, {
+            "name": "Black tracksuit",
+            "images": [{
+                "path": "parts/clothes/Black tracksuit.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Black winter padding",
+            "images": [{
+                "path": "parts/clothes/Black winter padding.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Blakc hoodie",
+            "images": [{
+                "path": "parts/clothes/Blakc Hoodie.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Blue heart T-shirt",
+            "images": [{
+                "path": "parts/clothes/Blue heart T-shirt.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Blue stripe shirt",
+            "images": [{
+                "path": "parts/clothes/Blue stripe shirt.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Blue tracksuit",
+            "images": [{
+                "path": "parts/clothes/Blue tracksuit.png",
+                "order": 400
+            }]
+        }, {
+            "name": "blue winter padding",
+            "images": [{
+                "path": "parts/clothes/blue winter padding.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Cowboy clothes",
+            "images": [{
+                "path": "parts/clothes/Cowboy clothes.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Pink sleeveless shirt",
+            "images": [{
+                "path": "parts/clothes/FoxPunks (88).png",
+                "order": 400
+            }]
+        }, {
+            "name": "Nobless navy",
+            "images": [{
+                "path": "parts/clothes/FoxPunks (89).png",
+                "order": 400
+            }]
+        }, {
+            "name": "Nobless red",
+            "images": [{
+                "path": "parts/clothes/FoxPunks (90).png",
+                "order": 400
+            }]
+        }, {
+            "name": "Crimson hoodie",
+            "images": [{
+                "path": "parts/clothes/FoxPunks.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Gold knight",
+            "images": [{
+                "path": "parts/clothes/Gold knight.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Green hoodie",
+            "images": [{
+                "path": "parts/clothes/Green Hoodie.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Ninja",
+            "images": [{
+                "path": "parts/clothes/Ninja.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Orange sleeveless shirt",
+            "images": [{
+                "path": "parts/clothes/Orange sleeveless shirt.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Pajamas",
+            "images": [{
+                "path": "parts/clothes/Pajamas.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Pink heart T-shirt",
+            "images": [{
+                "path": "parts/clothes/Pink heart T-shirt.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Purple sweater",
+            "images": [{
+                "path": "parts/clothes/Purple sweater.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Purple tracksuit",
+            "images": [{
+                "path": "parts/clothes/Purple tracksuit.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Red stripe shirt",
+            "images": [{
+                "path": "parts/clothes/Red stripe shirt.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Red weater",
+            "images": [{
+                "path": "parts/clothes/Red weater.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Sky blue hoodie",
+            "images": [{
+                "path": "parts/clothes/Sky blue Hoodie.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Strap blue",
+            "images": [{
+                "path": "parts/clothes/Strap Blue.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Suit",
+            "images": [{
+                "path": "parts/clothes/Suit.png",
+                "order": 400
+            }]
+        }, {
+            "name": "White office worker",
+            "images": [{
+                "path": "parts/clothes/White office worker.png",
+                "order": 400
+            }]
+        }, {
+            "name": "White tracksuit",
+            "images": [{
+                "path": "parts/clothes/White tracksuit.png",
+                "order": 400
+            }]
+        }, {
+            "name": "White winter padding",
+            "images": [{
+                "path": "parts/clothes/White winter padding.png",
+                "order": 400
+            }]
+        }, {
+            "name": "Yellow sweater",
+            "images": [{
+                "path": "parts/clothes/Yellow sweater.png",
+                "order": 400
+            }]
+        }]
+    },
+    {
+        "name": "accesory",
+        "parts": [{
+            "name": "Blank"
+        }, {
+            "name": "3D glasses",
+            "images": [{
+                "path": "parts/accesory/3D glasses.png",
+                "order": 500
+            }]
+        }, {
+            "name": "band",
+            "images": [{
+                "path": "parts/accesory/band.png",
+                "order": 500
+            }]
+        }, {
+            "name": "Band-Aid",
+            "images": [{
+                "path": "parts/accesory/Band-Aid.png",
+                "order": 500
+            }]
+        }, {
+            "name": "Black glasses",
+            "images": [{
+                "path": "parts/accesory/Black glasses.png",
+                "order": 500
+            }]
+        }, {
+            "name": "Black goggle",
+            "images": [{
+                "path": "parts/accesory/Black goggle.png",
+                "order": 500
+            }]
+        }, {
+            "name": "Blue goggle",
+            "images": [{
+                "path": "parts/accesory/Blue goggle.png",
+                "order": 500
+            }]
+        }, {
+            "name": "Earrings",
+            "images": [{
+                "path": "parts/accesory/Earrings.png",
+                "order": 500
+            }]
+        }, {
+            "name": "Eye patch",
+            "images": [{
+                "path": "parts/accesory/Eye patch.png",
+                "order": 500
+            }]
+        }, {
+            "name": "Monocle",
+            "images": [{
+                "path": "parts/accesory/Monocle.png",
+                "order": 500
+            }]
+        }, {
+            "name": "Pixel glasses",
+            "images": [{
+                "path": "parts/accesory/Pixel glasses.png",
+                "order": 500
+            }]
+        }, {
+            "name": "Red glasses",
+            "images": [{
+                "path": "parts/accesory/Red glasses.png",
+                "order": 500
+            }]
+        }, {
+            "name": "Sunglasses",
+            "images": [{
+                "path": "parts/accesory/Sunglasses.png",
+                "order": 500
+            }]
+        }, {
+            "name": "Yellow glasses",
+            "images": [{
+                "path": "parts/accesory/Yellow glasses.png",
+                "order": 500
+            }]
+        }]
+    },
+    {
+        "name": "head",
+        "parts": [{
+            "name": "Blank"
+        }, {
+            "name": "Angel ring",
+            "images": [{
+                "path": "parts/head/Angel ring.png",
+                "order": 600
+            }]
+        }, {
+            "name": "banana",
+            "images": [{
+                "path": "parts/head/banana.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Black star cap",
+            "images": [{
+                "path": "parts/head/Black star cap.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Black tennis cap",
+            "images": [{
+                "path": "parts/head/Black tennis cap.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Blue star cap",
+            "images": [{
+                "path": "parts/head/Blue star cap.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Blue tennis cap",
+            "images": [{
+                "path": "parts/head/Blue tennis cap.png",
+                "order": 600
+            }]
+        }, {
+            "name": "BNB",
+            "images": [{
+                "path": "parts/head/BNB.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Bulletproof hat",
+            "images": [{
+                "path": "parts/head/Bulletproof hat.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Fishbowl",
+            "images": [{
+                "path": "parts/head/Fishbowl.png",
+                "order": 600
+            }],
+            "percent": 0.1
+        }, {
+            "name": "Lightening clouds",
+            "images": [{
+                "path": "parts/head/Lightening clouds.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Nurse",
+            "images": [{
+                "path": "parts/head/Nurse.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Pancake",
+            "images": [{
+                "path": "parts/head/Pancake.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Paper boat",
+            "images": [{
+                "path": "parts/head/Paper boat.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Red band",
+            "images": [{
+                "path": "parts/head/Red band.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Red Mohawk",
+            "images": [{
+                "path": "parts/head/Red Mohawk.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Red star cap",
+            "images": [{
+                "path": "parts/head/Red star cap.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Ribbon",
+            "images": [{
+                "path": "parts/head/Ribbon.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Santa hat",
+            "images": [{
+                "path": "parts/head/Santa hat.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Yellow band",
+            "images": [{
+                "path": "parts/head/Yellow band.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Yellow Mohawk",
+            "images": [{
+                "path": "parts/head/Yellow Mohawk.png",
+                "order": 600
+            }]
+        }, {
+            "name": "Yellow tennis cap",
+            "images": [{
+                "path": "parts/head/Yellow tennis cap.png",
+                "order": 600
+            }]
+        }]
+    }
+]
