@@ -1,0 +1,31 @@
+.team {
+    >.members {
+        display              : grid;
+        grid-template-columns: 1fr 1fr;
+        gap                  : 10px;
+        text-align           : center;
+
+        @media @phone {
+            display: block;
+        }
+
+        >section {
+            margin-bottom: 32px;
+
+            >h3 {
+                font-family  : Chewy;
+                font-size    : 24px;
+                margin-bottom: 16px;
+            }
+
+            >img {
+                width        : 200px;
+                border-radius: 8px;
+            }
+
+            >p {
+                margin-top: 16px;
+            }
+        }
+    }
+}

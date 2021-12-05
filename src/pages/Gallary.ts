@@ -46,7 +46,7 @@ export default class Gallary extends DomNode {
                     this.selects.push(select as DomNode<HTMLSelectElement>);
                     return select;
                 }),
-                el("a.reset-button", "필터 초기화", {
+                el("a.reset-button", "Filter Reset", {
                     click: () => {
                         this.filter = {};
                         for (const select of this.selects) {

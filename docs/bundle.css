@@ -205,12 +205,12 @@ body > header > a {
     display: none;
   }
 }
-body > header > .mobile-menu {
+body > header > .mobile-menu-button {
   display: none;
   padding: 10px;
 }
 @media only screen and (max-width: 719px) {
-  body > header > .mobile-menu {
+  body > header > .mobile-menu-button {
     display: block;
   }
 }
@@ -277,6 +277,52 @@ body > footer {
   max-height: 100%;
   display: block;
 }
+.mint > .ready {
+  margin: 32px 0;
+  font-size: 32px;
+  text-align: center;
+  font-family: Chewy;
+  color: #7117b5;
+  line-height: 1.2em;
+}
+.roadmap > section > h3 {
+  font-family: Chewy;
+  padding: 15px 0;
+  font-size: 24px;
+}
+.roadmap > section > ul {
+  margin-left: 24px;
+  list-style: disc;
+}
+.roadmap > section > ul > li {
+  padding: 5px;
+}
+.team > .members {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+}
+@media only screen and (max-width: 719px) {
+  .team > .members {
+    display: block;
+  }
+}
+.team > .members > section {
+  margin-bottom: 32px;
+}
+.team > .members > section > h3 {
+  font-family: Chewy;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.team > .members > section > img {
+  width: 200px;
+  border-radius: 8px;
+}
+.team > .members > section > p {
+  margin-top: 16px;
+}
 .gallary > .filter {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -334,5 +380,26 @@ body > footer {
     height: 64px;
     font-size: 14px;
   }
+}
+.discord {
+  text-align: center;
+}
+.discord > p {
+  margin: 16px 0;
+}
+.mobile-menu {
+  position: fixed;
+  width: 170px;
+  background-color: #ffa7ad;
+  color: #7117b5;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 999;
+}
+.mobile-menu > a {
+  display: block;
+  padding: 12px 5px;
+  font-size: 18px;
+  font-family: Chewy;
 }
 
