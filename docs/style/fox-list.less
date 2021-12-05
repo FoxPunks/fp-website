@@ -1,0 +1,35 @@
+.fox-list {
+    margin-top: 8px;
+    height    : 300px;
+
+    >.fox-line {
+        display        : flex;
+        justify-content: center;
+
+        >.fox-item {
+            position         : relative;
+            width            : 90px;
+            height           : 90px;
+            background-size  : contain;
+            background-repeat: no-repeat;
+            font-size        : 20px;
+            line-height      : 1em;
+
+            >span {
+                position   : absolute;
+                left       : 3px;
+                bottom     : 0;
+                line-height: 1em;
+                color      : #fff;
+                font-size  : 14px;
+                text-shadow: 0px 0px 5px #000000;
+            }
+
+            @media only screen and (max-width: 799px) {
+                width    : 64px;
+                height   : 64px;
+                font-size: 14px;
+            }
+        }
+    }
+}

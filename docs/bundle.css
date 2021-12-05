@@ -177,6 +177,7 @@ body > header {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 999;
   width: 100%;
   background-color: #ffa7ad;
   color: #7117b5;
@@ -215,7 +216,7 @@ body > header > .mobile-menu {
 }
 body > section {
   padding: 60px 20px 0;
-  max-width: 800px;
+  max-width: 780px;
   margin: auto;
 }
 body > section > h2 {
@@ -233,8 +234,10 @@ body > footer {
   font-family: Chewy;
   font-size: 24px;
 }
-.intro > h2 {
-  text-align: center;
+@media only screen and (max-width: 719px) {
+  .intro > h2 {
+    text-align: center;
+  }
 }
 .intro > header {
   display: flex;
@@ -273,5 +276,63 @@ body > footer {
   max-width: 100%;
   max-height: 100%;
   display: block;
+}
+.gallary > .filter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8px;
+}
+.gallary > .filter > input,
+.gallary > .filter > select,
+.gallary > .filter > a {
+  text-align: center;
+  padding: 4px 0;
+  border: 1px solid #ffa7ad;
+  color: #7117b5;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+}
+.gallary > .filter > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffa7ad;
+  color: #fff;
+}
+.fox-list {
+  margin-top: 8px;
+  height: 300px;
+}
+.fox-list > .fox-line {
+  display: flex;
+  justify-content: center;
+}
+.fox-list > .fox-line > .fox-item {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  line-height: 1em;
+}
+.fox-list > .fox-line > .fox-item > span {
+  position: absolute;
+  left: 3px;
+  bottom: 0;
+  line-height: 1em;
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 0px 0px 5px #000000;
+}
+@media only screen and (max-width: 799px) {
+  .fox-list > .fox-line > .fox-item {
+    width: 64px;
+    height: 64px;
+    font-size: 14px;
+  }
 }
 

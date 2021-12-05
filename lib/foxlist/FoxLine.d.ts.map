@@ -1,0 +1,1 @@
+{"version":3,"file":"FoxLine.d.ts","sourceRoot":"","sources":["../../src/foxlist/FoxLine.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,MAAM,gBAAgB,CAAC;AAGnD,MAAM,CAAC,OAAO,OAAO,OAAQ,SAAQ,iBAAiB,CAAC,MAAM,EAAE,CAAC;IAIhD,OAAO,CAAC,GAAG;IAFvB,IAAW,QAAQ,aAAuB;gBAEtB,GAAG,EAAE,MAAM,EAAE;CAUpC"}
