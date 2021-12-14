@@ -1,0 +1,1 @@
+{"version":3,"file":"MobileMenu.d.ts","sourceRoot":"","sources":["../src/MobileMenu.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,uBAAuB,EAAE,OAAO,EAAM,QAAQ,EAAE,MAAM,gBAAgB,CAAC;AAEhF,MAAM,CAAC,OAAO,OAAO,UAAW,SAAQ,uBAAuB;gBAGvD,QAAQ,EAAE,QAAQ,EAClB,IAAI,EAAE,OAAO,EACb,OAAO,EAAE,OAAO,EAChB,IAAI,EAAE,OAAO,EACb,OAAO,EAAE,OAAO;CAmBvB"}

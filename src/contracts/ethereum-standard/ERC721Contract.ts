@@ -1,8 +1,8 @@
 import { BigNumber, BigNumberish, ContractInterface, ethers } from "ethers";
-import EthereumWallet from "../../ethereum/EthereumWallet";
-import EthereumContract from "../EthereumContract";
+import BSCWallet from "../../bsc/BSCWallet";
+import BSCContract from "../BSCContract";
 
-export default abstract class ERC721Contract<CT extends ethers.Contract> extends EthereumContract<CT> {
+export default abstract class ERC721Contract<CT extends ethers.Contract> extends BSCContract<CT> {
 
     constructor(address: string, abi: ContractInterface, eventNames: string[]) {
         super(address, abi, eventNames.concat([
@@ -38,6 +38,6 @@ export default abstract class ERC721Contract<CT extends ethers.Contract> extends
 
     public async transfer(to: string, id: BigNumberish) {
         const contract = await this.connectAndGetWalletContract();
-        await contract?.transferFrom(await EthereumWallet.loadAddress(), to, id);
+        await contract?.transferFrom(await BSCWallet.loadAddress(), to, id);
     }
 }

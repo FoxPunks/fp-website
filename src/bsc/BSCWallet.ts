@@ -3,7 +3,7 @@ import { BigNumber, BigNumberish, ethers } from "ethers";
 import { splitSignature } from "ethers/lib/utils";
 import EventContainer from "eventcontainer";
 
-class EthereumWallet extends EventContainer {
+class BSCWallet extends EventContainer {
 
     private ethereum: any | undefined = (window as any).ethereum;
     public get existsInjectedProvider() { return this.ethereum !== undefined; }
@@ -22,7 +22,7 @@ class EthereumWallet extends EventContainer {
                 this.fireEvent("chainchange", BigNumber.from(chainId).toNumber());
             });
         } else {
-            this.walletConnectProvider = new WalletConnectProvider({ rpc: "wss://mainnet.infura.io/ws/v3/6a31835e65654931a27f46202ff40544" });
+            this.walletConnectProvider = new WalletConnectProvider({ rpc: "https://bsc-dataseed.binance.org" });
             this.provider = new ethers.providers.Web3Provider(this.walletConnectProvider);
             this.walletConnectProvider.on("chainChanged", (chainId: number) => {
                 this.fireEvent("chainchange", chainId);
@@ -290,4 +290,4 @@ class EthereumWallet extends EventContainer {
     }
 }
 
-export default new EthereumWallet();
+export default new BSCWallet();

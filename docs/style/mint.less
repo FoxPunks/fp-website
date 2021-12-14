@@ -1,5 +1,6 @@
 .mint {
     >.foxes {
+        margin-bottom        : 16px;
         display              : grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
@@ -10,12 +11,63 @@
         }
     }
 
-    >.ready {
-        margin     : 32px 0;
-        font-size  : 32px;
-        text-align : center;
-        font-family: Chewy;
-        color      : #7117b5;
-        line-height: 1.2em;
+    >.mint-price {
+        font-size: 18px;
+        padding  : 5px 0;
+    }
+
+    >.input-container {
+        margin-top : 16px;
+        display    : flex;
+        font-size  : 18px;
+        align-items: center;
+
+        >input {
+            margin-left     : 10px;
+            background-color: #ffffff;
+            border          : none;
+            font-size       : 18px;
+            border-radius   : 20px;
+            padding         : 5px 14px;
+            width           : 100%;
+        }
+    }
+
+    >button {
+        display         : block;
+        background-color: #ffa7ad;
+        color           : #fff;
+        font-size       : 42px;
+        font-family     : Chewy;
+        border-radius   : 20px;
+        padding         : 0 20px;
+        margin          : auto;
+        margin-top      : 16px;
+    }
+
+    >.progress {
+        margin       : 50px auto;
+        padding      : 2px;
+        width        : 100%;
+        max-width    : 500px;
+        border       : 2px solid black;
+        border-radius: 16px;
+        height       : 30px;
+
+        >.progress-bar {
+            height          : 100%;
+            width           : 0%;
+            background-color: #ffa7ad;
+            border-radius   : 16px;
+        }
+
+        >.text-container {
+            display        : flex;
+            justify-content: space-between;
+
+            >.progress-text {
+                margin-top: 16px;
+            }
+        }
     }
 }

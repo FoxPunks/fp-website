@@ -1,6 +1,6 @@
 import { BigNumber, BigNumberish, ContractInterface, ethers } from "ethers";
-import EthereumContract from "../EthereumContract";
-export default abstract class ERC721Contract<CT extends ethers.Contract> extends EthereumContract<CT> {
+import BSCContract from "../BSCContract";
+export default abstract class ERC721Contract<CT extends ethers.Contract> extends BSCContract<CT> {
     constructor(address: string, abi: ContractInterface, eventNames: string[]);
     getName(): Promise<string>;
     balanceOf(owner: string): Promise<BigNumber>;

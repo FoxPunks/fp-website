@@ -1,14 +1,14 @@
 import { ethers } from "ethers";
 import EventContainer from "eventcontainer";
 
-class EthereumNetworkProvider extends EventContainer {
+class BSCNetworkProvider extends EventContainer {
 
-    public provider: ethers.providers.WebSocketProvider;
+    public provider: ethers.providers.JsonRpcProvider;
     public signer: ethers.providers.JsonRpcSigner;
 
     constructor() {
         super();
-        this.provider = new ethers.providers.WebSocketProvider("wss://mainnet.infura.io/ws/v3/6a31835e65654931a27f46202ff40544");
+        this.provider = new ethers.providers.JsonRpcProvider("https://bsc-dataseed.binance.org");
         this.signer = this.provider.getSigner(ethers.constants.AddressZero);
     }
 
@@ -21,4 +21,4 @@ class EthereumNetworkProvider extends EventContainer {
     }
 }
 
-export default new EthereumNetworkProvider();
+export default new BSCNetworkProvider();
