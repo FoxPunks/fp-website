@@ -1,8 +1,8 @@
 import { BodyNode, DomNode, el } from "@hanul/skynode";
 import MobileMenu from "./MobileMenu";
+import Foxes from "./pages/Foxes";
 import Gallary from "./pages/Gallary";
 import Intro from "./pages/Intro";
-import Mint from "./pages/Mint";
 import Roadmap from "./pages/Roadmap";
 import Team from "./pages/Team";
 
@@ -20,9 +20,6 @@ import Team from "./pages/Team";
                 el("h1", "FoxPunks"),
                 { click: () => scrollTo(0, 0) },
             ),
-            el("a.pc-menu", "Mint a Fox", {
-                click: () => scrollTo(0, mint.rect.top),
-            }),
             el("a.pc-menu", "Roadmap", {
                 click: () => scrollTo(0, roadmap.rect.top),
             }),
@@ -40,7 +37,7 @@ import Team from "./pages/Team";
             }),
         ),
         new Intro(),
-        mint = new Mint(),
+        new Foxes(),
         roadmap = new Roadmap(),
         team = new Team(),
         gallary = new Gallary(),
