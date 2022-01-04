@@ -432,6 +432,40 @@ body > footer {
 .discord > p {
   margin: 16px 0;
 }
+.contract {
+  text-align: center;
+}
+.contract > p {
+  margin: 16px 0;
+}
+.contract > p > a {
+  text-decoration: none;
+  color: inherit;
+}
+.your-foxes > header {
+  margin-bottom: 20px;
+  display: flex;
+}
+.your-foxes > header > h2 {
+  font-size: 32px;
+  font-family: Chewy;
+  color: #7117b5;
+  flex-grow: 1;
+}
+.your-foxes > header > a {
+  text-align: center;
+  padding: 4px 12px;
+  border: 1px solid #ffa7ad;
+  color: #7117b5;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffa7ad;
+  color: #fff;
+}
 .mobile-menu {
   position: fixed;
   width: 170px;

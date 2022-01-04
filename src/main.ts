@@ -5,6 +5,7 @@ import Gallary from "./pages/Gallary";
 import Intro from "./pages/Intro";
 import Roadmap from "./pages/Roadmap";
 import Team from "./pages/Team";
+import YourFoxes from "./pages/YourFoxes";
 
 (async () => {
 
@@ -41,6 +42,7 @@ import Team from "./pages/Team";
         roadmap = new Roadmap(),
         team = new Team(),
         gallary = new Gallary(),
+        //new YourFoxes(),
         el("section.discord",
             el("h2", "Join Us!"),
             el("p", "Let's hang out on Discord."),
@@ -49,6 +51,14 @@ import Team from "./pages/Team";
                 { href: "https://discord.gg/YGmPxyyCnb", target: "_blank" },
             ),
             el("p", "Click to join the FoxPunks Discord Lounge"),
+        ),
+        el("section.contract",
+            el("h2", "Smart Contract"),
+            el("a",
+                el("img", { src: "/images/logo-bscscan.svg", width: "200" }),
+                { href: "https://bscscan.com/token/0x5D4541Ea6460c39B5d600Fe06d2865637867b122", target: "_blank" },
+            ),
+            el("p", el("a", "0x5D4541Ea6460c39B5d600Fe06d2865637867b122", { href: "https://bscscan.com/token/0x5D4541Ea6460c39B5d600Fe06d2865637867b122", target: "_blank" })),
         ),
         el("footer",
             "© 2021 FoxPunks LLC",
