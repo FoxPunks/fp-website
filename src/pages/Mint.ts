@@ -4,12 +4,11 @@ import SkyUtil from "skyutil";
 import BSCNetworkProvider from "../bsc/BSCNetworkProvider";
 import BSCWallet from "../bsc/BSCWallet";
 import CommonUtil from "../CommonUtil";
-import FoxPunksContract from "../contracts/FoxPunksContract";
 import FoxPunksMinterContract from "../contracts/FoxPunksMinterContract";
 
 export default class Mint extends DomNode {
 
-    private TOTAL_COUNT = 10000;
+    private TOTAL_COUNT = 4000;
     private interval: any;
 
     private mintPrice: DomNode;
@@ -68,7 +67,7 @@ export default class Mint extends DomNode {
     }
 
     private async progress() {
-        const remains = (await FoxPunksMinterContract.limit()).sub(await FoxPunksContract.totalSupply()).toNumber();
+        const remains = (await FoxPunksMinterContract.limit()).toNumber();
         const d = this.TOTAL_COUNT - remains > this.TOTAL_COUNT ? this.TOTAL_COUNT : this.TOTAL_COUNT - remains;
         this.bar.style({ width: `${d / this.TOTAL_COUNT * 100}%` });
         this.progressText.empty().appendText(`${d}/${this.TOTAL_COUNT}`);

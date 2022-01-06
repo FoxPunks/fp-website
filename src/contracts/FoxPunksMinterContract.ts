@@ -7,7 +7,7 @@ import FoxPunksContract from "./FoxPunksContract";
 class FoxPunksMinterContract extends BSCContract<FoxPunksMinter> {
 
     constructor() {
-        super("0x2E0117037615a1c02C9640De5384f939A8192B5E", FoxPunksMinterArtifact.abi, []);
+        super("0xbD29E62e00a68600817BD072f0F65F918cB724a3", FoxPunksMinterArtifact.abi, []);
     }
 
     public async mintPrice(): Promise<BigNumber> {
@@ -25,7 +25,7 @@ class FoxPunksMinterContract extends BSCContract<FoxPunksMinter> {
 
             const price = await this.mintPrice();
 
-            if ((await FoxPunksContract.totalSupply()).gte(await this.limit())) {
+            if ((await this.limit()).eq(0)) {
                 alert("End of minting as it reached the maximum mintable amount.");
             } else {
                 await contract.mint({ value: price });

@@ -1,11 +1,10 @@
 import { BodyNode, DomNode, el } from "@hanul/skynode";
 import MobileMenu from "./MobileMenu";
-import Foxes from "./pages/Foxes";
 import Gallary from "./pages/Gallary";
 import Intro from "./pages/Intro";
+import Mint from "./pages/Mint";
 import Roadmap from "./pages/Roadmap";
 import Team from "./pages/Team";
-import YourFoxes from "./pages/YourFoxes";
 
 (async () => {
 
@@ -21,6 +20,9 @@ import YourFoxes from "./pages/YourFoxes";
                 el("h1", "FoxPunks"),
                 { click: () => scrollTo(0, 0) },
             ),
+            el("a.pc-menu", "Mint a Fox", {
+                click: () => scrollTo(0, mint.rect.top),
+            }),
             el("a.pc-menu", "Roadmap", {
                 click: () => scrollTo(0, roadmap.rect.top),
             }),
@@ -38,11 +40,10 @@ import YourFoxes from "./pages/YourFoxes";
             }),
         ),
         new Intro(),
-        new Foxes(),
+        mint = new Mint(),
         roadmap = new Roadmap(),
         team = new Team(),
         gallary = new Gallary(),
-        //new YourFoxes(),
         el("section.discord",
             el("h2", "Join Us!"),
             el("p", "Let's hang out on Discord."),
@@ -58,7 +59,6 @@ import YourFoxes from "./pages/YourFoxes";
                 el("img", { src: "/images/logo-bscscan.svg", width: "200" }),
                 { href: "https://bscscan.com/token/0x5D4541Ea6460c39B5d600Fe06d2865637867b122", target: "_blank" },
             ),
-            el("p", el("a", "0x5D4541Ea6460c39B5d600Fe06d2865637867b122", { href: "https://bscscan.com/token/0x5D4541Ea6460c39B5d600Fe06d2865637867b122", target: "_blank" })),
         ),
         el("footer",
             "© 2021 FoxPunks LLC",
