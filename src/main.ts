@@ -3,7 +3,6 @@ import MobileMenu from "./MobileMenu";
 import Gallary from "./pages/Gallary";
 import Intro from "./pages/Intro";
 import Mint from "./pages/Mint";
-import Roadmap from "./pages/Roadmap";
 import Team from "./pages/Team";
 
 (async () => {
@@ -41,7 +40,6 @@ import Team from "./pages/Team";
         ),
         new Intro(),
         mint = new Mint(),
-        roadmap = new Roadmap(),
         team = new Team(),
         gallary = new Gallary(),
         el("section.discord",
